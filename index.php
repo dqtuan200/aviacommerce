@@ -180,9 +180,6 @@
 				}
 			}';
 			break;
-		case "/api/v1/addresses":
-			$result = '';
-			break;
 		
 		default:
 			$result = '';
