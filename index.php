@@ -3,6 +3,7 @@
 
 	switch ($param) {
 		case "/api/v1/addresses":
+			var_dump($param);
 			$result = '
 				{
 				  "data": {
