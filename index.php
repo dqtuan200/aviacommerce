@@ -3,7 +3,6 @@
 
 	switch ($param) {
 		case "/api/v1/addresses":
-			var_dump($param);
 			$result = '
 				{
 				  "data": {
@@ -184,7 +183,7 @@
 		
 		default:
 			$result = '';
-			
-		echo json_encode($result);exit;
 	}
+	
+	echo json_encode($result);exit;
 ?>
