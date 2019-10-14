@@ -185,5 +185,5 @@
 			$result = '';
 	}
 	
-	echo json_decode($result);exit;
+	echo ($result);exit;
 ?>
